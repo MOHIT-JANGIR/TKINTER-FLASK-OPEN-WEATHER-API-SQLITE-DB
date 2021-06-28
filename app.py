@@ -4,7 +4,7 @@ import sqlite3 as sql
 
 app = Flask(__name__)
 
-key = "ad49a084c8af3f6e8b055da7750548f4"
+key = ""
 
 db = sql.connect("cities.db")
 cursor = db.cursor()
