@@ -56,7 +56,7 @@ exit_button.pack(side=tk.BOTTOM)
 def show_weather(e):
     global Temperature, cityName
     degree_sign = u'\N{DEGREE SIGN}'
-    key = "ad49a084c8af3f6e8b055da7750548f4"
+    key = ""
     cityName = city.get()
     url = f"http://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={key}&units=metric"
     page = requests.get(url)
